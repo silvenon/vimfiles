@@ -28,39 +28,18 @@
 [submodule "bundle/commentary"]
 	path = bundle/commentary
 	url = https://github.com/tpope/vim-commentary
-[submodule "bundle/molokai"]
-	path = bundle/molokai
-	url = https://github.com/mrtazz/molokai.vim
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = https://github.com/tpope/vim-surround
-[submodule "bundle/puppet"]
-	path = bundle/puppet
-	url = https://github.com/rodjek/vim-puppet/
-[submodule "bundle/solarized"]
-	path = bundle/solarized
-	url = https://github.com/altercation/vim-colors-solarized
 [submodule "bundle/repeat"]
 	path = bundle/repeat
 	url = https://github.com/tpope/vim-repeat
-[submodule "bundle/liquid"]
-	path = bundle/liquid
-	url = https://github.com/tpope/vim-liquid
-[submodule "bundle/markdown-folding"]
-	path = bundle/markdown-folding
-	url = https://github.com/nelstrom/vim-markdown-folding
 [submodule "bundle/eunuch"]
 	path = bundle/eunuch
 	url = https://github.com/tpope/vim-eunuch
-[submodule "bundle/vimux"]
-	path = bundle/vimux
-	url = https://github.com/benmills/vimux
-[submodule "bundle/turbux"]
-	path = bundle/turbux
-	url = https://github.com/jgdavey/vim-turbux
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = https://github.com/kien/ctrlp.vim
@@ -70,18 +49,6 @@
 [submodule "bundle/unimpaired"]
 	path = bundle/unimpaired
 	url = https://github.com/tpope/vim-unimpaired
-[submodule "bundle/tbone"]
-	path = bundle/tbone
-	url = https://github.com/tpope/vim-tbone
-[submodule "bundle/dispatch"]
-	path = bundle/dispatch
-	url = https://github.com/tpope/vim-dispatch
-[submodule "bundle/ragel"]
-	path = bundle/ragel
-	url = https://github.com/jayferd/ragel.vim
 [submodule "bundle/visual-star-search"]
 	path = bundle/visual-star-search
 	url = https://github.com/nelstrom/vim-visual-star-search
-[submodule "bundle/tmux-navigator"]
-	path = bundle/tmux-navigator
-	url = https://github.com/christoomey/vim-tmux-navigator
