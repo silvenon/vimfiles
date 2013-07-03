@@ -94,10 +94,10 @@ if has("autocmd")
   au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn,txt} setf markdown | call s:setupWrapping()
 
   " Treat JSON files like JavaScript
-  au BufNewFile,BufRead *.json set ft=javascript
+  au BufNewFile,BufRead *.json setf javascript
 
   " https://github.com/sstephenson/bats
-  au BufNewFile,BufRead *.bats set ft=sh
+  au BufNewFile,BufRead *.bats setf sh
 
   " make Python follow PEP8 ( http://www.python.org/dev/peps/pep-0008/ )
   au FileType python set softtabstop=4 tabstop=4 shiftwidth=4 textwidth=79
@@ -133,13 +133,18 @@ let mapleader=","
 nmap <leader>y "+y
 nmap <leader>p "+p
 
+" expand %% to current directory in command-line mode
 " http://vimcasts.org/e/14
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
 
-map <leader>f :CtrlP<cr>
-map <leader>F :CtrlP %%<cr>
-map <leader>b :CtrlPBuffer<cr>
-let g:ctrlp_working_path_mode = 0
+map <leader>gl :CommandTFlush<cr>\|:CommandT lib<cr>
+map <leader>gt :CommandTTag<cr>
+map <leader>f :CommandTFlush<cr>\|:CommandT<cr>
+map <leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
+
+let g:CommandTMatchWindowAtTop=1
+let g:CommandTMaxHeight=10
+let g:CommandTMinHeight=2
 
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
