@@ -123,10 +123,10 @@ endif
 map Q gq
 
 " clear the search buffer when hitting return
-:nnoremap <CR> :nohlsearch<cr>
+nnoremap <CR> :nohlsearch<cr>
 
 " toggle the current fold
-:nnoremap <Space> za
+nnoremap <Space> za
 
 let mapleader=","
 
