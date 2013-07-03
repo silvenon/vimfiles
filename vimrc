@@ -172,12 +172,18 @@ map <Right> :echo "no!"<cr>
 map <Up>    :echo "no!"<cr>
 map <Down>  :echo "no!"<cr>
 
+" easier navigation between split windows
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
+
 if has("statusline") && !&cp
   set laststatus=2              " always show the status bar
   set statusline=%f\ %m\ %r     " filename, modified, readonly
   set statusline+=%{fugitive#statusline()}
   set statusline+=\ %l/%L[%p%%] " current line/total lines
-  set statusline+=\ %v    " current column
+  set statusline+=\ %v          " current column
 endif
 
 map <leader>w :exec ":!~/bin/test  " . expand("%") . " " . line(".")<cr>
