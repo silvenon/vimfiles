@@ -22,7 +22,7 @@ if has('gui_running')
 else
   set background=dark
 endif
-color railscasts
+color vwilight
 set synmaxcol=800           " don't try to highlight long lines
 
 set nonumber    " line numbers aren't needed
