@@ -137,6 +137,7 @@ nmap <leader>p "+p
 " http://vimcasts.org/e/14
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
 
+map <leader>f :CtrlP<cr>
 map <leader>F :CtrlP %%<cr>
 map <leader>b :CtrlPBuffer<cr>
 " let g:ctrlp_root_markers = ['.git', 'Rakefile']
