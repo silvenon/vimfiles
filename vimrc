@@ -142,7 +142,6 @@ map <leader>gt :CommandTTag<cr>
 map <leader>f :CommandTFlush<cr>\|:CommandT<cr>
 map <leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
 
-let g:CommandTMatchWindowAtTop=1
 let g:CommandTMaxHeight=10
 let g:CommandTMinHeight=2
 
