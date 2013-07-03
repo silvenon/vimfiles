@@ -172,5 +172,5 @@ if has("statusline") && !&cp
   set statusline=%f\ %m\ %r     " filename, modified, readonly
   set statusline+=%{fugitive#statusline()}
   set statusline+=\ %l/%L[%p%%] " current line/total lines
-  set statusline+=\ %v[0x%B]    " current column [hex char]
+  set statusline+=\ %v    " current column
 endif
