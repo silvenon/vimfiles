@@ -4,6 +4,7 @@
 ""   Drew Neil  <vimcasts.org>
 ""   Tim Pope  <tbaggery.com>
 ""   Janus  <github.com/carlhuda/janus>
+""   Mislav <github.com/mislav/vimfiles>
 ""
 
 set nocompatible
