@@ -158,6 +158,7 @@ nnoremap <leader><leader> <c-^>
 
 command! KillWhitespace :normal :%s/ *$//g<cr><c-o><cr>
 
+" More intuitive splitting
 set splitright
 set splitbelow
 
