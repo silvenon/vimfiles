@@ -130,9 +130,9 @@ nnoremap <Space> za
 
 let mapleader=","
 
-" paste lines from unnamed register and fix indentation
-nmap <leader>p pV`]=
-nmap <leader>P PV`]=
+" Copy-paste from system's clipboard
+nmap <leader>y "+y
+nmap <leader>p "+p
 
 " http://vimcasts.org/e/14
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
