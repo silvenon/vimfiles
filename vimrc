@@ -17,11 +17,7 @@ filetype plugin indent on
 runtime macros/matchit.vim  " enables % to cycle through `if/else/endif`
 
 syntax enable
-if has('gui_running')
-  set background=light
-else
-  set background=dark
-endif
+set background=dark
 color vwilight
 set synmaxcol=800           " don't try to highlight long lines
 
