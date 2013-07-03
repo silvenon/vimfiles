@@ -174,3 +174,6 @@ if has("statusline") && !&cp
   set statusline+=\ %l/%L[%p%%] " current line/total lines
   set statusline+=\ %v    " current column
 endif
+
+map <leader>w :exec ":!~/bin/test  " . expand("%") . " " . line(".")<cr>
+map <leader>t :exec ":!~/bin/test  " . expand("%")<cr>
