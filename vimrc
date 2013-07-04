@@ -29,6 +29,10 @@ let g:is_bash=1 " default shell syntax
 set history=200 " remember more Ex commands
 set scrolloff=3 " have some context around the current line always on screen
 
+" make tab completion for files/buffers act like bash
+set wildmode=longest,list
+set wildmenu
+
 " Allow backgrounding buffers without writing them, and remember marks/undo
 " for backgrounded buffers
 set hidden
