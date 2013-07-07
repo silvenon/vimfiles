@@ -206,3 +206,5 @@ inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 inoremap <s-tab> <c-n>
 
 map <leader>n :NERDTreeToggle<cr>
+" Close Vim if NERD Tree is the only active window
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
