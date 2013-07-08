@@ -59,7 +59,7 @@ highlight rubyClass                    ctermfg=179  ctermbg=NONE cterm=NONE     
 highlight rubyFunction                 ctermfg=95   ctermbg=NONE cterm=NONE         guifg=#9b703f guibg=NONE    gui=NONE
 highlight rubyInterpolationDelimiter   ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE    guibg=NONE    gui=NONE
 highlight rubySymbol                   ctermfg=167  ctermbg=NONE cterm=NONE         guifg=#cf6a4c guibg=NONE    gui=NONE
-highlight rubyConstant                 ctermfg=103  ctermbg=NONE cterm=NONE         guifg=#9b859d guibg=NONE    gui=NONE
+highlight rubyConstant                 ctermfg=104  ctermbg=NONE cterm=NONE         guifg=#9b859d guibg=NONE    gui=NONE
 highlight rubyStringDelimiter          ctermfg=107  ctermbg=NONE cterm=NONE         guifg=#8f9d6a guibg=NONE    gui=NONE
 highlight rubyBlockParameter           ctermfg=103  ctermbg=NONE cterm=NONE         guifg=#7587a6 guibg=NONE    gui=NONE
 highlight rubyInstanceVariable         ctermfg=103  ctermbg=NONE cterm=NONE         guifg=#7587a6 guibg=NONE    gui=NONE
@@ -73,7 +73,7 @@ highlight rubyClassVariable            ctermfg=103  ctermbg=NONE cterm=NONE     
 highlight rubyOperator                 ctermfg=179  ctermbg=NONE cterm=NONE         guifg=#cda869 guibg=NONE    gui=NONE
 highlight rubyException                ctermfg=179  ctermbg=NONE cterm=NONE         guifg=#cda869 guibg=NONE    gui=NONE
 highlight rubyPseudoVariable           ctermfg=103  ctermbg=NONE cterm=NONE         guifg=#7587a6 guibg=NONE    gui=NONE
-highlight rubyRailsUserClass           ctermfg=103  ctermbg=NONE cterm=NONE         guifg=#9b859d guibg=NONE    gui=NONE
+highlight rubyRailsUserClass           ctermfg=104  ctermbg=NONE cterm=NONE         guifg=#9b859d guibg=NONE    gui=NONE
 highlight rubyRailsARAssociationMethod ctermfg=186  ctermbg=NONE cterm=NONE         guifg=#dad085 guibg=NONE    gui=NONE
 highlight rubyRailsARMethod            ctermfg=186  ctermbg=NONE cterm=NONE         guifg=#dad085 guibg=NONE    gui=NONE
 highlight rubyRailsRenderMethod        ctermfg=186  ctermbg=NONE cterm=NONE         guifg=#dad085 guibg=NONE    gui=NONE
