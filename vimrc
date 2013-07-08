@@ -17,6 +17,7 @@ runtime macros/matchit.vim  " enables % to cycle through `if/else/endif`
 
 syntax enable
 set background=dark
+set t_Co=256
 color vwilight
 set synmaxcol=800           " don't try to highlight long lines
 
