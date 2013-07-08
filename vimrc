@@ -150,6 +150,7 @@ map <leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
 let g:CommandTMaxHeight=10
 let g:CommandTMinHeight=2
 
+" Use "The Silver Searcher" instead of "Ack" in ack.vim
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
 " In command-line mode, C-a jumps to beginning (to match C-e)
