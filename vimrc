@@ -120,9 +120,8 @@ nnoremap <Space> za
 
 let mapleader=","
 
-" Copy-paste from system's clipboard
-nmap <leader>y "+y
-nmap <leader>p "+p
+" Make Vim use system clipboard for copy and paste
+set clipboard=unnamed
 
 " expand %% to current directory in command-line mode
 " http://vimcasts.org/e/14
