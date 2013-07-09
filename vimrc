@@ -127,7 +127,6 @@ set clipboard=unnamed
 " http://vimcasts.org/e/14
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
 
-map <leader>gt :CommandTTag<cr>
 nmap <leader>gl :CommandTFlush<cr>\|:CommandT lib<cr>
 nmap <leader>f :CommandTFlush<cr>\|:CommandT<cr>
 nmap <leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
