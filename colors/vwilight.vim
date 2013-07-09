@@ -60,7 +60,7 @@ hi rubyClass                    ctermfg=179  ctermbg=NONE cterm=NONE         gui
 hi rubyFunction                 ctermfg=95   ctermbg=NONE cterm=NONE         guifg=#9b703f guibg=NONE    gui=NONE
 hi rubyInterpolationDelimiter   ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE    guibg=NONE    gui=NONE
 hi rubySymbol                   ctermfg=167  ctermbg=NONE cterm=NONE         guifg=#cf6a4c guibg=NONE    gui=NONE
-hi rubyConstant                 ctermfg=104  ctermbg=NONE cterm=NONE         guifg=#9b859d guibg=NONE    gui=NONE
+hi rubyConstant                 ctermfg=139  ctermbg=NONE cterm=NONE         guifg=#af87af guibg=NONE    gui=NONE
 hi rubyStringDelimiter          ctermfg=107  ctermbg=NONE cterm=NONE         guifg=#8f9d6a guibg=NONE    gui=NONE
 hi rubyBlockParameter           ctermfg=103  ctermbg=NONE cterm=NONE         guifg=#7587a6 guibg=NONE    gui=NONE
 hi rubyInstanceVariable         ctermfg=103  ctermbg=NONE cterm=NONE         guifg=#7587a6 guibg=NONE    gui=NONE
@@ -74,7 +74,7 @@ hi rubyClassVariable            ctermfg=103  ctermbg=NONE cterm=NONE         gui
 hi rubyOperator                 ctermfg=179  ctermbg=NONE cterm=NONE         guifg=#cda869 guibg=NONE    gui=NONE
 hi rubyException                ctermfg=179  ctermbg=NONE cterm=NONE         guifg=#cda869 guibg=NONE    gui=NONE
 hi rubyPseudoVariable           ctermfg=103  ctermbg=NONE cterm=NONE         guifg=#7587a6 guibg=NONE    gui=NONE
-hi rubyRailsUserClass           ctermfg=104  ctermbg=NONE cterm=NONE         guifg=#9b859d guibg=NONE    gui=NONE
+hi rubyRailsUserClass           ctermfg=139  ctermbg=NONE cterm=NONE         guifg=#af87af guibg=NONE    gui=NONE
 hi rubyRailsARAssociationMethod ctermfg=186  ctermbg=NONE cterm=NONE         guifg=#dad085 guibg=NONE    gui=NONE
 hi rubyRailsARMethod            ctermfg=186  ctermbg=NONE cterm=NONE         guifg=#dad085 guibg=NONE    gui=NONE
 hi rubyRailsRenderMethod        ctermfg=186  ctermbg=NONE cterm=NONE         guifg=#dad085 guibg=NONE    gui=NONE
