@@ -127,10 +127,10 @@ set clipboard=unnamed
 " http://vimcasts.org/e/14
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
 
-map <leader>gl :CommandTFlush<cr>\|:CommandT lib<cr>
 map <leader>gt :CommandTTag<cr>
-map <leader>f :CommandTFlush<cr>\|:CommandT<cr>
-map <leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
+nmap <leader>gl :CommandTFlush<cr>\|:CommandT lib<cr>
+nmap <leader>f :CommandTFlush<cr>\|:CommandT<cr>
+nmap <leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
 
 let g:CommandTMaxHeight=10
 let g:CommandTMinHeight=2
@@ -176,8 +176,8 @@ if has("statusline") && !&cp
   set statusline+=\ %v          " current column
 endif
 
-map <leader>w :exec ":!~/bin/test  " . expand("%") . " " . line(".")<cr>
-map <leader>t :exec ":!~/bin/test  " . expand("%")<cr>
+nmap <leader>w :exec ":!~/bin/test  " . expand("%") . " " . line(".")<cr>
+nmap <leader>t :exec ":!~/bin/test  " . expand("%")<cr>
 
 " MULTIPURPOSE TAB KEY
 " Indent if we're at the beginning of a line. Else, do completion.
@@ -192,6 +192,6 @@ endfunction
 inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 inoremap <s-tab> <c-n>
 
-map <leader>n :NERDTreeToggle<cr>
+nmap <leader>n :NERDTreeToggle<cr>
 " Close Vim if NERD Tree is the only active window
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
