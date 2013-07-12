@@ -6,4 +6,4 @@ function! s:CucumberHelpers()
   endif
 endfunction
 
-au BufRead */features/step_definitions/*.rb call s:CucumberHelpers()
+au BufRead *features/step_definitions/*.rb call s:CucumberHelpers()
