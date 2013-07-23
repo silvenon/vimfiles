@@ -7,6 +7,7 @@ set visualbell
 
 set guioptions-=T   " No toolbar
 set guioptions-=r   " No scrollbars
+set guioptions-=L   " No scrollbars
 
 if has("gui_macvim")
   " Fullscreen takes up entire screen
