@@ -194,3 +194,6 @@ inoremap <s-tab> <c-n>
 nmap <leader>n :NERDTreeToggle<cr>
 " Close Vim if NERD Tree is the only active window
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+" Add underscore to word separators
+set iskeyword-=_
