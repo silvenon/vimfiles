@@ -76,6 +76,14 @@ set notimeout
 set ttimeout
 set ttimeoutlen=100
 
+function s:setupWrapping()
+  set wrap
+  set wrapmargin=2
+  set textwidth=80
+  set formatoptions+=ta
+  set formatoptions-=l
+endfunction
+
 if has("autocmd")
   " Avoid showing trailing whitespace when in insert mode
   au InsertEnter * :set listchars-=trail:•
@@ -85,7 +93,7 @@ if has("autocmd")
   au FileType make set noexpandtab
 
   " Make sure all markdown files have the correct filetype set and setup wrapping
-  au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn,txt} setf markdown
+  au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn,txt} setf markdown | call s:setupWrapping()
 
   " Treat JSON files like JavaScript
   au BufNewFile,BufRead *.json setf javascript
