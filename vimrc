@@ -205,7 +205,3 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 " Add underscore to word separators
 set iskeyword-=_
-
-" map j to gj and k to gk, so line navigation ignores line wrap
-nmap j gj
-nmap k gk
