@@ -76,7 +76,7 @@ set notimeout
 set ttimeout
 set ttimeoutlen=100
 
-function s:setupWrapping()
+function b:setupWrapping()
   set wrap
   set wrapmargin=2
   set textwidth=80
@@ -93,7 +93,7 @@ if has("autocmd")
   au FileType make set noexpandtab
 
   " Make sure all markdown files have the correct filetype set and setup wrapping
-  au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn,txt} setf markdown | call s:setupWrapping()
+  au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn,txt} setf markdown " | call b:setupWrapping()
 
   " Treat JSON files like JavaScript
   au BufNewFile,BufRead *.json setf javascript
@@ -202,6 +202,3 @@ inoremap <s-tab> <c-n>
 nmap <leader>n :NERDTreeToggle<cr>
 " Close Vim if NERD Tree is the only active window
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-
-" Add underscore to word separators
-set iskeyword-=_
