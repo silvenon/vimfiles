@@ -82,3 +82,6 @@
 [submodule "bundle/dash"]
 	path = bundle/dash
 	url = git://github.com/rizzatti/dash.vim.git
+[submodule "bundle/emmet"]
+	path = bundle/emmet
+	url = git://github.com/mattn/emmet-vim.git
