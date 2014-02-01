@@ -91,3 +91,12 @@
 [submodule "bundle/rake"]
 	path = bundle/rake
 	url = git://github.com/tpope/vim-rake.git
+[submodule "bundle/slim"]
+	path = bundle/slim
+	url = git://github.com/slim-template/vim-slim.git
+[submodule "bundle/abolish"]
+	path = bundle/abolish
+	url = git://github.com/tpope/vim-abolish.git
+[submodule "bundle/editorconfig"]
+	path = bundle/editorconfig
+	url = git://github.com/editorconfig/editorconfig-vim.git
