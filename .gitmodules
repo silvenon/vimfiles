@@ -58,9 +58,6 @@
 [submodule "bundle/visual-star-search"]
 	path = bundle/visual-star-search
 	url = https://github.com/nelstrom/vim-visual-star-search
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/gitignore"]
 	path = bundle/gitignore
 	url = git://github.com/fabiomcosta/vim-gitignore.git
@@ -103,3 +100,6 @@
 [submodule "bundle/mustache-handlebars"]
 	path = bundle/mustache-handlebars
 	url = git://github.com/mustache/vim-mustache-handlebars.git
+[submodule "bundle/vinegar"]
+	path = bundle/vinegar
+	url = git://github.com/tpope/vim-vinegar.git
