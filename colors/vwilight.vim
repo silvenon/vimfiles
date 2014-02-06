@@ -12,10 +12,11 @@ let g:colors_name = "vwilight"
 
 hi Cursor                       ctermfg=NONE ctermbg=248  cterm=NONE         guifg=NONE    guibg=#a7a7a7 gui=NONE
 hi Visual                       ctermfg=NONE ctermbg=59   cterm=NONE         guifg=NONE    guibg=#3c4043 gui=NONE
+hi LineNr                       ctermfg=245  ctermbg=NONE cterm=NONE         guifg=#868686 guibg=NONE    gui=NONE
 hi CursorLine                   ctermfg=NONE ctermbg=235  cterm=NONE         guifg=NONE    guibg=#2b2b2b gui=NONE
+hi CursorLineNr                 ctermfg=245  ctermbg=235  cterm=NONE         guifg=#868686 guibg=#2b2b2b gui=NONE
 hi CursorColumn                 ctermfg=NONE ctermbg=235  cterm=NONE         guifg=NONE    guibg=#2b2b2b gui=NONE
 hi ColorColumn                  ctermfg=NONE ctermbg=235  cterm=NONE         guifg=NONE    guibg=#2b2b2b gui=NONE
-hi LineNr                       ctermfg=245  ctermbg=235  cterm=NONE         guifg=#868686 guibg=#2b2b2b gui=NONE
 hi VertSplit                    ctermfg=240  ctermbg=240  cterm=NONE         guifg=#565656 guibg=#565656 gui=NONE
 hi MatchParen                   ctermfg=179  ctermbg=NONE cterm=NONE         guifg=#cda869 guibg=NONE    gui=NONE
 hi StatusLine                   ctermfg=231  ctermbg=240  cterm=bold         guifg=#f8f8f8 guibg=#565656 gui=bold
@@ -111,8 +112,8 @@ hi diffRemoved                  ctermfg=167  ctermbg=NONE cterm=NONE         gui
 " vimdiff
 hi diffAdd                      ctermfg=231  ctermbg=107  cterm=NONE         guifg=#f8f8f8 guibg=#8f9d6a gui=NONE
 hi diffDelete                   ctermfg=231  ctermbg=167  cterm=NONE         guifg=#f8f8f8 guibg=#cf6a4c gui=NONE
-hi diffChange                   ctermfg=231  ctermbg=103  cterm=NONE         guifg=#f8f8f8 guibg=#7587a6 gui=NONE
-hi diffText                     ctermfg=231  ctermbg=139  cterm=NONE         guifg=#f8f8f8 guibg=#af87af gui=NONE
+hi diffChange                   ctermfg=231  ctermbg=179  cterm=NONE         guifg=#f8f8f8 guibg=#cda869 gui=NONE
+hi diffText                     ctermfg=231  ctermbg=95   cterm=NONE         guifg=#f8f8f8 guibg=#9b703f gui=NONE
 
 hi gitCommitUntrackedFile       ctermfg=103  ctermbg=NONE cterm=NONE         guifg=#7587a6 guibg=NONE    gui=NONE
 hi gitCommitDiscardedFile       ctermfg=167  ctermbg=NONE cterm=NONE         guifg=#cf6a4c guibg=NONE    gui=NONE
