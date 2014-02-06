@@ -11,6 +11,7 @@ set encoding=utf-8
 set exrc              " load vimrc from current directory
 
 call pathogen#infect()
+call pathogen#helptags()
 filetype plugin indent on
 
 runtime macros/matchit.vim  " enables % to cycle through `if/else/endif`
@@ -130,7 +131,9 @@ nnoremap <Space> za
 let mapleader=","
 
 " Make Vim use system clipboard for copy and paste
-set clipboard=unnamed
+if $TMUX == ''
+  set clipboard=unnamed
+end
 
 " expand %% to current directory in command-line mode
 " http://vimcasts.org/e/14
