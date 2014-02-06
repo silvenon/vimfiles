@@ -103,3 +103,6 @@
 [submodule "bundle/vinegar"]
 	path = bundle/vinegar
 	url = git://github.com/tpope/vim-vinegar.git
+[submodule "bundle/grunt"]
+	path = bundle/grunt
+	url = git://github.com/mklabs/grunt.vim.git
