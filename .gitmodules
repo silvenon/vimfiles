@@ -106,3 +106,6 @@
 [submodule "bundle/grunt"]
 	path = bundle/grunt
 	url = git://github.com/mklabs/grunt.vim.git
+[submodule "bundle/markdown-folding"]
+	path = bundle/markdown-folding
+	url = git://github.com/nelstrom/vim-markdown-folding.git
