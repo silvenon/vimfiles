@@ -58,9 +58,6 @@
 [submodule "bundle/visual-star-search"]
 	path = bundle/visual-star-search
 	url = https://github.com/nelstrom/vim-visual-star-search
-[submodule "bundle/gitignore"]
-	path = bundle/gitignore
-	url = git://github.com/fabiomcosta/vim-gitignore.git
 [submodule "bundle/css3"]
 	path = bundle/css3
 	url = git://github.com/hail2u/vim-css3-syntax.git
@@ -115,3 +112,6 @@
 [submodule "bundle/argumentative"]
 	path = bundle/argumentative
 	url = git://github.com/PeterRincker/vim-argumentative.git
+[submodule "bundle/gitignore"]
+	path = bundle/gitignore
+	url = git://github.com/sebastiangeiger/gitignore.vim.git
