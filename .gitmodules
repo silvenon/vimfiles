@@ -112,6 +112,3 @@
 [submodule "bundle/argumentative"]
 	path = bundle/argumentative
 	url = git://github.com/PeterRincker/vim-argumentative.git
-[submodule "bundle/gitignore"]
-	path = bundle/gitignore
-	url = git://github.com/sebastiangeiger/gitignore.vim.git
