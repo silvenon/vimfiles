@@ -109,7 +109,7 @@ if has("autocmd")
     \| exe "normal! g`\"" | endif
 
   " mark Jekyll YAML frontmatter as comment
-  au BufNewFile,BufRead *.{md,markdown,html,xml} sy match Comment /\%^---\_.\{-}---$/
+  au BufNewFile,BufRead *.{md,markdown,html,xml,hbs} sy match Comment /\%^---\_.\{-}---$/
 
   " magic markers: enable using `H/S/J/C to jump back to
   " last HTML, stylesheet, JS or Ruby code buffer
