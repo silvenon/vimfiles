@@ -202,3 +202,6 @@ function! InsertTabWrapper()
 endfunction
 inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 inoremap <s-tab> <c-n>
+
+" Shortcut for running files
+nmap <leader>r :exec ":!~/bin/run " . expand("%")<cr>
