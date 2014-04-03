@@ -95,7 +95,7 @@ if has("autocmd")
   au FileType make set noexpandtab
 
   " Make sure all markdown files have the correct filetype set and setup wrapping
-  au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn,txt} setf markdown " | call b:setupWrapping()
+  au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn,tex,txt} setf markdown | call b:setupWrapping()
 
   " Treat JSON files like JavaScript
   au BufNewFile,BufRead *.json setf javascript
