@@ -205,3 +205,17 @@ inoremap <s-tab> <c-n>
 
 " Shortcut for running files
 nmap <leader>r :exec ":!~/bin/run " . expand("%")<cr>
+
+" Toggle 'a' in formatoptions
+function ToggleAutoFormat()
+  if &fo=~"a"
+    set fo-=a
+    echom "auto-format off"
+  else
+    set fo+=a
+    echom "auto-format on"
+  endif
+endfunction
+
+" Shortuct for toggling 'a' in formatoptions
+nmap <leader>a :call ToggleAutoFormat()<cr>
