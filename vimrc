@@ -79,11 +79,11 @@ set ttimeout
 set ttimeoutlen=100
 
 function b:setupWrapping()
-  set wrap
-  set wrapmargin=2
-  set textwidth=80
-  set formatoptions+=ta
-  set formatoptions-=l
+  setlocal wrap
+  setlocal wrapmargin=2
+  setlocal textwidth=80
+  setlocal formatoptions+=ta
+  setlocal formatoptions-=l
 endfunction
 
 if has("autocmd")
@@ -209,10 +209,10 @@ nmap <leader>r :exec ":!~/bin/run " . expand("%")<cr>
 " Toggle 'a' in formatoptions
 function ToggleAutoFormat()
   if &fo=~"a"
-    set fo-=a
+    setlocal fo-=a
     echom "auto-format off"
   else
-    set fo+=a
+    setlocal fo+=a
     echom "auto-format on"
   endif
 endfunction
