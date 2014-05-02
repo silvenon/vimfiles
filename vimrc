@@ -59,7 +59,7 @@ set backspace=indent,eol,start    " backspace through everything in insert mode
 if v:version > 703 || v:version == 703 && has("patch541")
   set formatoptions+=j            " Delete comment char when joining commented lines
 endif
-set nojoinspaces                  " Use only 1 space after "." when joining lines, not 2
+set nojoinspaces                  " Use only 1 space after '.' when joining lines, not 2
 " Indicator chars
 set listchars=tab:▸\ ,trail:•,extends:❯,precedes:❮
 set showbreak=↪\ 
@@ -146,7 +146,7 @@ nmap <leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
 let g:CommandTMaxHeight=10
 let g:CommandTMinHeight=2
 
-" Use "The Silver Searcher" instead of "Ack" in ack.vim
+" Use 'The Silver Searcher' instead of 'Ack' in ack.vim
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
 " In command-line mode, C-a jumps to beginning (to match C-e)
