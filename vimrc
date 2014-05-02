@@ -78,7 +78,7 @@ set notimeout
 set ttimeout
 set ttimeoutlen=100
 
-function b:setupWrapping()
+function! b:setupWrapping()
   setlocal wrap
   setlocal wrapmargin=2
   setlocal textwidth=80
@@ -207,7 +207,7 @@ inoremap <s-tab> <c-n>
 nmap <leader>r :exec ":!~/bin/run " . expand("%")<cr>
 
 " Toggle 'a' in formatoptions
-function ToggleAutoFormat()
+function! ToggleAutoFormat()
   if &fo=~"a"
     setlocal fo-=a
     echom "auto-format off"
