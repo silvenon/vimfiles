@@ -219,3 +219,6 @@ endfunction
 
 " Shortuct for toggling 'a' in formatoptions
 nmap <leader>a :call ToggleAutoFormat()<cr>
+
+" Highlight 81's column
+let &colorcolumn = "81"
