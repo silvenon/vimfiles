@@ -100,9 +100,6 @@
 [submodule "bundle/markdown-folding"]
 	path = bundle/markdown-folding
 	url = git://github.com/nelstrom/vim-markdown-folding.git
-[submodule "bundle/tmux-navigator"]
-	path = bundle/tmux-navigator
-	url = git://github.com/christoomey/vim-tmux-navigator.git
 [submodule "bundle/argumentative"]
 	path = bundle/argumentative
 	url = git://github.com/PeterRincker/vim-argumentative.git
