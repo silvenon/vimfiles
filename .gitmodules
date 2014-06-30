@@ -4,9 +4,6 @@
 [submodule "bundle/javascript"]
 	path = bundle/javascript
 	url = https://github.com/pangloss/vim-javascript
-[submodule "bundle/markdown"]
-	path = bundle/markdown
-	url = https://github.com/tpope/vim-markdown
 [submodule "bundle/rails"]
 	path = bundle/rails
 	url = https://github.com/tpope/vim-rails
@@ -97,9 +94,6 @@
 [submodule "bundle/grunt"]
 	path = bundle/grunt
 	url = git://github.com/mklabs/grunt.vim.git
-[submodule "bundle/markdown-folding"]
-	path = bundle/markdown-folding
-	url = git://github.com/nelstrom/vim-markdown-folding.git
 [submodule "bundle/argumentative"]
 	path = bundle/argumentative
 	url = git://github.com/PeterRincker/vim-argumentative.git
@@ -115,3 +109,6 @@
 [submodule "bundle/splitjoin"]
 	path = bundle/splitjoin
 	url = https://github.com/AndrewRadev/splitjoin.vim.git
+[submodule "bundle/markdown"]
+	path = bundle/markdown
+	url = https://github.com/plasticboy/vim-markdown.git
