@@ -229,3 +229,5 @@ nmap <leader>s :SplitjoinSplit<cr>
 
 " Disable folding in Markdown files
 let g:vim_markdown_folding_disabled=1
+
+au BufNewFile,BufRead *.ejs set filetype=html
